@@ -4,3 +4,43 @@
   box-sizing: border-box;
   font-family: Arial, Helvetica, sans-serif;
 }
+
+/* app */
+.app {
+  padding: 20px;
+}
+
+.title {
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+/* card style */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+  gap: 15px;
+}
+
+.card {
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+.card-img {
+  width: 100%;
+  border-radius: 10px;
+  display: block;
+}
+
+.card-title {
+  margin-top: 8px;
+  font-size: 14px;
+  color: #000000;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+/* next */
